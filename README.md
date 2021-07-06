@@ -14,7 +14,7 @@ This repository contains the implementation of the ADL-PCC codec - a Point Cloud
 *	**Experimental data**: Compressed bitstream files and reconstructed Point Clouds (PCs) obtained with ADL-PCC, for the JPEG Pleno PC coding dataset described in the [Common Test Conditions](http://ds.jpeg.org/documents/jpegpleno/wg1n88044-CTQ-JPEG_Pleno_PCC_Common_Test_Conditions_3_3.pdf) of the [Call for Evidence](http://ds.jpeg.org/documents/jpegpleno/wg1n88014-REQ-Final_CfE_JPEG_Pleno_PCC.pdf).
 
 [Download experimental data](https://drive.google.com/file/d/1hSOQCozZ0IPnZrttkjM2zozUHfguuBXe/view?usp=sharing)
-*	**RD performance results**: In `results/rd_charts.xlsx`, rate-distortion results and accompanying charts for each PC in the JPEG Pleno PC coding dataset, corresponding to the previously mentioned experimental data. The rate-distortion charts compare the performance of ADL-PCC with the MPEG G-PCC standard.
+*	**RD performance results**: In `results/rd_charts.xlsx`, rate-distortion results and accompanying charts for each PC in the JPEG Pleno PC coding dataset, corresponding to the previously mentioned experimental data. The rate-distortion charts compare the performance of ADL-PCC with the MPEG G-PCC standard, following the [JPEG Pleno PC coding Common Test Conditions](http://ds.jpeg.org/documents/jpegpleno/wg1n88044-CTQ-JPEG_Pleno_PCC_Common_Test_Conditions_3_3.pdf).
 
 # Requirements
 
