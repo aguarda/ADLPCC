@@ -60,7 +60,7 @@ optional arguments:
 ```
 
 The loss function parameters can be selected depending on the desired rate-distortion trade-off, as well as the target PC block characteristics.
-Example:
+Usage example:
 ```
 python ADLPCC.py train "train_data_path/*.ply" "../models/3000/75" --lambda 3000 --fl_alpha 0.75 
 ```
@@ -85,7 +85,7 @@ optional arguments:
 ```
 
 The desired number of DL coding models and the specific trained DL coding models available for selection can be specified by providing a directory path with a glob pattern (e.g., using wildcard characters such as `*` or `?`).
-Example:
+Usage example:
 ```
 python ADLPCC.py compress "test_data_path/longdress.ply" "../models/3000/*" --blk_size 64 
 ```
@@ -107,9 +107,39 @@ optional arguments:
 ```
 
 The desired number of DL coding models and the specific trained DL coding models available for selection can be specified by providing a directory path with a glob pattern (e.g., using wildcard characters such as `*` or `?`).
-Example:
+Usage example:
 ```
 python ADLPCC.py decompress "../results/3000/longdress/longdress.pkl.gz" "../models/3000/*"
+```
+
+## Re-scaling a point cloud:
+
+The script `rescaling.py` can be used to re-scale a point cloud for a target bit depth precision.
+
+```
+python rescaling.py INPUT_FILE BITDEPTH
+
+
+positional arguments:
+  input_file  Input Point Cloud filename (.ply).
+  bitdepth    Desired Point Cloud bit depth precision.
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+Usage example:
+```
+python rescaling.py Staue_Klimt_vox12.ply 9
+```
+
+## Estimating normals:
+
+The script `estimateNormals.sh` can be used to estimate the normal vectors of a point cloud, using quadric fitting with a neighborhood radius of 5. It requires [CloudCompare](http://www.cloudcompare.org/) 2.11.1 or a compatible version.
+
+Usage example:
+```
+./estimateNormals.sh longdress.ply
 ```
 
 # Citation
