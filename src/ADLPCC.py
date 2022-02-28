@@ -58,8 +58,8 @@ SCALES_MIN = 0.11
 SCALES_MAX = 256
 SCALES_LEVELS = 64
 
-tf.config.optimizer.set_jit(True)
-os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
+# tf.config.optimizer.set_jit(True)
+# os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
 
 
 def train(args):
