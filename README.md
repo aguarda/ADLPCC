@@ -144,7 +144,7 @@ Usage example:
 
 # Citation
 
-A. F. R. Guarda, N. M. M. Rodrigues and F. Pereira, "Adaptive Deep Learning-based Point Cloud Geometry Coding," in IEEE Journal on Selected Topics in Signal Processing (J-STSP), vol. 15, no. 2, pp. 415–430, Italy, Feb. 2021. doi: 10.1109/JSTSP.2020.3047520.
+A. F. R. Guarda, N. M. M. Rodrigues and F. Pereira, "Adaptive Deep Learning-based Point Cloud Geometry Coding," in IEEE Journal on Selected Topics in Signal Processing (J-STSP), vol. 15, no. 2, pp. 415–430, Feb. 2021. doi: 10.1109/JSTSP.2020.3047520.
 
 ```
 @article{Guarda2021,
